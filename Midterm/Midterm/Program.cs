@@ -26,18 +26,19 @@ namespace Midterm
             }
             Console.ReadLine();
 
-            int startingNum = 49;
-            while (startingNum > 1)
+            // for loop printing 49 through 1 separated by a comma.
+            for (int startingNum = 49; startingNum > 1;)
             {
                 Console.Write("{0}, ", startingNum);
                 startingNum--;
 
                 if (startingNum == 1)
                     Console.Write("{0}", startingNum);
-            }
+            }            
             Console.ReadLine();
             Console.WriteLine();
 
+            // While loop that prints all odd numbers 1 through 21 separated by spaces.
             int secondNum = 1;
             while (secondNum <= 21)
             {
@@ -67,6 +68,7 @@ namespace Midterm
             }
             Console.ReadLine();
 
+            // Combining multiple boolean variables
             bool icyRain = false;
             bool tornadoWarning = false;
 
@@ -106,6 +108,7 @@ namespace Midterm
             }
             Console.ReadLine();
 
+            // Infinite while loops
             bool keepLooping = true; // set variable for infinite loops
 
             while (keepLooping) // start infinite loop
