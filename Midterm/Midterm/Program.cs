@@ -69,6 +69,7 @@ namespace Midterm
             Console.ReadLine();
 
             // Combining multiple boolean variables
+            // We combine boolean values by using and/or operators, such as below. 
             bool icyRain = false;
             bool tornadoWarning = false;
 
