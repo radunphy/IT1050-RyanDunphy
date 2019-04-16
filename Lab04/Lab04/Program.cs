@@ -84,7 +84,7 @@ namespace Lab04
             Console.ReadLine();
 
             // The problem with this statement, was that the WriteLine with 
-            // ("********") was  not included in the body of the for loop.
+            // ("********") was not included in the body of the for loop.
             // This has been changed, it now works fine. 
             for (int i = 0; i < 101; i++)
             {
