@@ -48,7 +48,7 @@ namespace Midterm
             Console.ReadLine();
             Console.WriteLine();
 
-            // The output for this will be *, and nothing else 
+            // The output for this will be *, and nothing else because i will never be less than n
             int n = 8;
             int i = 10; // initialize
             do {
